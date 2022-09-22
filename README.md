@@ -18,6 +18,27 @@ La carga es excesivamente lenta.
 
 https://pagespeed.web.dev/ (Herramienta especializada en rendimiento web)
 
-# Ejercicio 1: Formulario de envío de información sin certificado HTTPS.
+---
 
-# Ejercicio 2: Instalación de ReCaptcha.
+# Ejercicio 1: Base de datos lenta.
+
+### URL
+
+localhost
+
+### Enfoque
+
+Esté ejercicio tiene un enfoque de rendimiento.
+
+### Problematica
+
+La búsqueda en los códigos postales es deficiente.
+
+### Herramientas a utilizar
+
+?
+
+---
+
+# Ejercicio 2: ReCaptcha.
+
