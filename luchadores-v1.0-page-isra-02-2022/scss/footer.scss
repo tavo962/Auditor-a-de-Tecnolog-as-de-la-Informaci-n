@@ -1,0 +1,199 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	body > footer {
+
+		.cryptoFooter{
+			max-width: 65%;
+		}
+
+		.f12{
+			font-size: 12px;
+		}
+
+		.fighters-footer{
+			text-align: right;
+			img{
+				width: 40px;
+			}
+		}
+
+		color: white;
+		background-color: #18191a;
+		padding-bottom: 30px;
+		padding-top: 40px;
+		// Check number
+		z-index: 3;
+
+		@include user-select;
+
+		h6 {
+			@include clean;
+			font-family: $font-family-base;
+			font-size: 1.1em;
+			font-weight: normal;
+			line-height: 130%;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+
+		img#logo-footer {
+			height: 100px;
+		}
+
+		p {
+			font-family: $font-family-base;
+			font-weight: $font-normal;
+
+			&.copyright {
+				@include clean;
+				margin-top: 20px;
+				text-align: center;
+			}
+		}
+
+		ul {
+			@include clean;
+			list-style-type: none;
+			text-align: center;
+
+			&.social-networks {
+				text-align: center;
+				
+				li {
+					a {
+						font-size: 2em;
+
+						&.facebook {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-facebook;
+							}
+						}
+						&.instagram {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-instagram;
+							}
+						}
+						&.spotify {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-spotify;
+							}
+						}
+						&.twitter {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-twitter;
+							}
+						}
+						&.vimeo {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-vimeo;
+							}
+						}
+						&.youtube {
+							&:hover,
+							&:focus,
+							&:active {
+								color: $brand-youtube;
+							}
+						}
+					}
+				}
+			}
+
+			li {
+				display: inline-block;
+
+				a {
+					color: white;
+					font-size: 0.9em;
+					line-height: 150%;
+					margin: 0 5px;
+					padding: 5px 5px;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+@media #{$phone} {
+	body > footer {
+
+		.cryptoFooter{
+			max-width: 100%;
+		}
+
+		.fighters-footer{
+			text-align: center;
+			img{
+				width: 30px;
+			}
+		}
+		&#next {
+			background: rgba( black, 0.75 );
+			// border-top: 1px solid $brand-primary;
+			bottom: 0;
+			display: flex;
+			flex-wrap: wrap;
+			position: fixed;
+			width: 100%;
+			z-index: 2;
+
+			a {
+				color: white;
+				display: inline-block;
+				padding: 10px 15px;
+				text-transform: uppercase;
+				width: 50%;
+
+				&.left {
+					text-align: left;
+				}
+
+				&.right {
+					text-align: right;
+				}
+				
+				&:first-child {
+					text-align: left;
+				}
+
+				&:nth-child( 2 ) {
+					text-align: right;
+				}
+			}
+		}
+	}
+
+	body > footer {
+		padding-bottom: 20px;
+		padding-top: 30px;
+
+		img#logo-footer {
+			display: block;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		.first {
+			font-size: 1.4em;
+			margin-top: 20px;
+			text-align: center;
+		}
+	}	
+}

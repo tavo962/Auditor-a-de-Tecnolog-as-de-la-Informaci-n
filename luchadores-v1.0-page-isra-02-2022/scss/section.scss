@@ -1,0 +1,212 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	#roadmap{
+		ul{
+			list-style: none;
+		}
+	}
+	.box-language{
+		padding-right: 6rem;
+		padding-bottom: 1rem;
+	}
+	.section-home{
+		height: 500px;
+		.col-12{
+			text-align: center;
+		}
+		p, h1, h2, h3, h4, h5, a{
+			line-height: 17px;
+			color: white;
+			font-size: 14px;
+		}
+	}
+	.blue-banner{
+		display:inline-block; 
+		position:relative;
+		width:100%;
+		text-align:center;
+		img{
+			width:100%;
+			height:auto;
+		}
+		h3{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color:white;
+			width:100%;
+		}
+	}
+
+	.marcas{
+		margin-top: 1rem;
+	}
+
+	section {
+		margin-bottom: 3rem;
+		.sliders {
+			@include clean;
+			margin-top: 0px;
+			// height: 850px;
+			height: 100vh;
+
+			figure {
+				@include clean;
+				@include bg;
+				@include transition( .1s );
+				box-sizing: border-box;
+				float: left;
+				// height: 180vh;
+				position: relative;
+				width: 25%;
+
+				.effect {
+					@include clean;
+					background: transparent;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+
+					h1 {
+						@include clean;
+						bottom: 0px;
+						color: rgba( white, 0.90 );
+						left: 0;
+						margin-bottom: 60px;
+						position: absolute;
+						text-align: center;
+						width: 100%;
+					}
+				}
+
+				&:hover {
+					.effect {
+						@include transition( .1s );
+						background: rgba( black, 0.15 );
+					}
+				}
+			}
+
+			
+		}
+		&#carousel-scc{
+			#carouselHome{
+				.carousel-item{
+					// height: 650px;
+					background-repeat: no-repeat;
+					background-size: cover;
+					background-position: center;
+					// background-image: url('/img/principal.jpg') !important;
+
+					.carousel-caption{
+						position: absolute;
+						// right: 0;
+						top: 50%;
+						// width: 530px;
+						// left: unset;
+						background-repeat: no-repeat;
+						background-size: cover;
+						background-position: bottom right;
+						
+						.content{
+							width: 100%;
+							right: 0;
+							position: absolute;
+							padding: 15px;
+							padding-top: 35px;
+							text-align: center;
+							div{
+								// border-right: 1px solid white;
+								// padding-right: 15px;
+
+								h1{
+									font-weight: 700;
+									color: white;
+									font-size: 28px;
+								}
+								p{
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+				.carousel-control-next{
+					background-color: black;
+					width: 40px;
+					top: 43%;
+					height: 16%;
+					z-index: 12;
+				}
+				.carousel-control-prev{
+					background-color: black;
+					width: 40px;
+					top: 43%;
+					height: 16%;
+					z-index: 12;
+
+				}
+			}
+		}
+		
+	}
+}
+@media #{$phone} {
+	.section-home{
+		p{
+			font-size: 12px;
+		}
+	}
+	.box-language{
+		padding-right: 2rem;
+		padding-bottom: 1rem;
+	}
+	.section-home{
+		img{
+			margin-top: 0;
+		}
+	}
+	.marcas{
+		margin-top: 8rem;
+	}		
+	#figure1{
+		width: 50% !important;
+	}
+	#figure0{
+		width: 50% !important;
+	}
+	
+	body > header {
+
+
+		.sliders {
+			margin-top: 15px;
+			height: auto;
+			figure {
+				// @include property( transition, none );
+				height: 95vh;
+				width: 50%;
+
+				.effect {
+					h1 {
+						margin-bottom: 15vh;
+						margin-bottom: 10vh;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width:347px ) {
+
+	.blue-banner{
+		h3{
+			font-size: 1.2rem
+		}
+	}
+}

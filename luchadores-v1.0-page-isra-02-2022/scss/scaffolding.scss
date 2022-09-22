@@ -1,0 +1,247 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	.ring {
+		font-size: 16px !important;
+	}
+
+	body {
+		color: $text-color;
+		font-family: $font-family-base;
+		font-weight: $font-slim;
+	}
+
+	h1, h4, h5, h6 {
+		font-weight: $font-fat;
+		font-family: 'Gotham';
+	}
+
+	h3{
+		font-family: 'Gotham';
+
+	}
+
+	a {
+		@include link( $text-color, $brand-primary );
+	}
+
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+
+	.fancybox-skin {
+		margin: 40px;
+	}
+
+	.about-us{
+		p{
+			font-family: 'Open Sans' !important;
+			font-weight: 300;
+		}
+		img{
+			height: 80px;
+		}
+	}
+	.content-sliders{
+		position: absolute;
+		bottom: 5%;
+		color: white;
+		text-align: center;
+		margin: auto;
+		left: 0;
+		right: 0;
+		h1{
+			font-family: 'Gotham';
+			font-size: 28px;
+		}
+		p{
+			font-family: 'Lato';
+			font-size: 28px;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+	}
+	strong{
+		font-weight: 700;
+	}
+	.pixelated{
+		font-family: 'pixelated';
+
+	}
+	.section-home{
+		background-image: url('/img/home.png');
+		height: 670px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center  bottom;
+	}
+	.section-rarity{
+		background-color: black !important;
+		// background-image: url('/img/home.png');
+		// background-repeat: no-repeat;
+		// background-size: cover;
+		// background-position: center  bottom;
+		color: white;
+		// h1{
+		// 	font-family: 'Bebas Neue' !important;
+		// }
+		h5{
+			font-family: 'Press Start 2P' !important;
+			font-size: 15px;
+		}
+		p{
+			font-size: 13px;
+
+		}
+		.subtitle{
+
+		}
+		.border-neon{
+			border: 6px solid #0065b0;
+			border-radius: 10px;
+			img{
+				width: 85px;
+			}
+			.name{
+				font-size: 12px;
+				line-height: 1;
+    			margin-bottom: 12px;
+
+			}
+			.type{
+				font-family: 'Press Start 2P' !important;
+				font-size: 12px;
+
+			}
+		}
+	}
+	.section-donation{
+		background-color: #31b9ceff !important;
+		color: white !important;
+		h2{
+			color: white;
+			font-family: 'Bebas Neue' !important;
+
+		}
+		.link-donation{
+			text-decoration: none;
+			color: white;
+		}
+		.link-donation:hover{
+			font-weight: 700;
+		}
+		.more{
+			font-style: italic;
+			font-weight: 700;
+		}
+	}
+	.section-roadmap{
+		background-color: black !important;
+		color: white !important;
+		h2{
+			color: white;
+			font-family: 'Bebas Neue' !important;
+
+		}
+		.batch-title{
+			font-size: 2em;
+			font-family: "Bebas Neue" !important;
+			text-align: center;
+
+		}
+		.number{
+			font-size: 20px;
+			margin: 0px;
+			text-align: center;
+		}
+		.description{
+
+			text-align: center;
+		}
+	
+		.price{
+			font-weight: 700;
+			text-align: center;
+		}
+		.borderrigth{
+			border-right: 2px solid white;
+			
+		}
+		.borderleft{
+			border-left: 2px solid white;
+
+		}
+	}
+	.section-team{
+		background-color: #352a85 !important;
+		color: white !important;
+		h2{
+			color: white;
+			font-family: 'Bebas Neue' !important;
+
+		}
+		.name{
+			font-weight: 700;
+			margin-bottom: 0;
+		}
+	}
+	.background-stars{
+		
+		background: url( '../img/brillo1.png' ) repeat, url( '../img/brillo1.png' ) repeat;
+
+	}
+	.section-faqs{
+		background-color: black !important;
+		color: white !important;
+		h2{
+			color: white;
+			font-family: 'Bebas Neue' !important;
+
+		}
+		.accordion-item{
+			background: black;
+			text-align: left;
+			.accordion-button{
+				background-color: #333333;
+				color: white;
+				border-radius: 5px;
+				text-transform: none;
+				font-family: 'Open Sans' !important;
+				font-weight: 700;
+			}
+			.accordion-body{
+				a{
+					color: white !important;
+				}
+			}
+		}
+	}
+	.subtitles{
+		font-size: 4em !important;
+		font-family: 'Bebas Neue' !important;
+	}
+}
+@media #{$phone} {
+	.ring {
+		font-size: 12px !important;
+	}
+
+	.content-sliders{
+		position: relative;
+		// bottom: 1%;
+		color: black;
+		text-align: center;
+		h5{
+			font-family: 'Gotham';
+			font-size: 14px;
+		}
+		p{
+			font-family: 'Lato';
+			font-size: 14px;
+		}
+	}	
+}

@@ -1,0 +1,38 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	main {
+		.btn-opensea{
+			text-decoration: none;
+			box-shadow: 2px 3px 0px 0px rgb(235 58 58);
+			-webkit-box-shadow: 3px 5px 0px 0px rgb(154 2 2 / 94%);
+			-moz-box-shadow: 2px 3px 0px 0px rgba(235,58,58,1);
+			background-color: #d32e31;
+			padding: 10px 0;
+			margin-top: 2.5rem;
+			width:45%;
+			font-size: 30px !important;
+			padding-top: 1rem;
+		}
+		.btn-opensea:hover{
+			color: white;
+			font-weight: 700;
+		}
+		#img-principal{
+			// background-image: url('/img/principal.jpg');
+			height: 470px;
+			background-size: cover;
+		}
+	}
+}
+@media #{$phone} {
+	main{
+		.btn-opensea{
+			background-color: #f8595c;
+			width: 50%;
+			font-size: 12px !important;
+			margin-top: 1.5rem;
+		}
+	}
+}

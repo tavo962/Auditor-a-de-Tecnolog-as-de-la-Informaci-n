@@ -1,0 +1,35 @@
+$text-color: #333;
+$brand-nav: #0374df;
+$brand-primary: #000000;
+$brand-facebook: #3b5999;
+$brand-google-plus: #d34836;
+$brand-instagram: #e4405f;
+$brand-spotify: #1ed760;
+$brand-twitter: #55acee;
+$brand-vimeo: #1ab7ea;
+$brand-whatsapp: #25d366;
+$brand-youtube: #cd201f;
+
+$gray-base: #000;
+$gray-darker: lighten( $gray-base, 13.5% );
+$gray-dark: lighten( $gray-base, 20% );
+$gray: lighten( $gray-base, 33.5% );
+$gray-light: lighten( $gray-base, 46.7% );
+$gray-lighter: lighten( $gray-base, 93.5% );
+
+$font-family-base: 'avenir', sans-serif;
+$font-slim: 300;
+$font-normal: 400;
+$font-fat: 700;
+
+$images: '../img';
+$fonts: '../fonts';
+
+
+$phone: 'only screen and ( max-width: 767px )';
+$tablet: 'only screen and ( min-width: 768px ) and ( max-width: 991px )';
+$desktop: 'only screen and ( min-width: 992px ) and ( max-width: 1199px )';
+$desktop-large: 'only screen and ( min-width: 1200px )';
+$desktop-x-large: 'only screen and ( min-width: 1400px )';
+$desktop-2x-large: 'only screen and ( min-width: 1600px )';
+$desktop-3x-large: 'only screen and ( min-width: 1900px )';
