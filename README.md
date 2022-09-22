@@ -2,6 +2,10 @@
 
 ## Ejercicio 0: Evaluación de un sitio web estático.
 
+### URL
+
+
+
 ### Enfoque
 
 Esté ejercicio tiene un enfoque de rendimiento.
@@ -12,7 +16,7 @@ La carga es excesivamente lenta.
 
 ### Herramientas a utilizar
 
-https://pagespeed.web.dev/ (Herramienta)
+https://pagespeed.web.dev/ (Herramienta especializada en rendimiento web)
 
 # Ejercicio 1: Formulario de envío de información sin certificado HTTPS.
 
