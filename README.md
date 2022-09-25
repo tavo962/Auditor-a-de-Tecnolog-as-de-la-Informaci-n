@@ -4,7 +4,7 @@
 
 ### URL
 
-https://auditoria.codeman.mx/ (Actualización de URL el 2022-09-25)
+https://cryptomexicanfighters.xyz/ (Actualización de URL el 2022-09-25)
 
 ### Enfoque
 
