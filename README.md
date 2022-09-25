@@ -10,7 +10,7 @@ https://cryptomexicanfighters.xyz/ (Actualización de URL el 2022-09-25)
 
 Esté ejercicio tiene un enfoque de rendimiento.
 
-### Problematica
+### Problemática
 
 La carga es excesivamente lenta.
 
@@ -32,17 +32,16 @@ localhost
 
 Esté ejercicio tiene un enfoque de rendimiento.
 
-### Problematica
+### Problemática
 
 La búsqueda en los códigos postales es deficiente.
 
 ### Herramientas a utilizar
 
 ?
-
 ---
 
-# Ejercicio 2: ReCaptcha.
+# Ejercicio 2: Revisar diagrama de una base de datos.
 
 ### URL
 
@@ -52,9 +51,29 @@ https://auditoria2.codeman.mx/
 
 Mejorar la seguridad.
 
-### Problematica
+### Problemática
 
-Se han reportado ingreso de datos no deseados.
+El sistema tiene cargas 
+
+### Herramientas a utilizar
+
+Análisis del profesional
+
+---
+
+# Ejercicio 3: ReCaptcha.
+
+### URL
+
+https://auditoria2.codeman.mx/
+
+### Enfoque
+
+Mejorar la seguridad.
+
+### Problemática
+
+Se han reportado ingresos de datos no deseados.
 
 ### Herramientas a utilizar
 
