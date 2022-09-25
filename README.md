@@ -18,6 +18,8 @@ La carga es excesivamente lenta.
 
 https://pagespeed.web.dev/ (Herramienta especializada en rendimiento web)
 
+En caso de que siga marcando error la plataforma anterior, hacer el ejercicio con la siguiente: https://tools.pingdom.com/
+
 ---
 
 # Ejercicio 1: Base de datos lenta.
