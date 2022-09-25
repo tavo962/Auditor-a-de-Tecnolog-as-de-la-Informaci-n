@@ -4,7 +4,7 @@
 
 ### URL
 
-http://auditoria.codeman.mx/
+https://auditoria.codeman.mx/ (Actualización de URL el 2022-09-25)
 
 ### Enfoque
 
@@ -42,3 +42,18 @@ La búsqueda en los códigos postales es deficiente.
 
 # Ejercicio 2: ReCaptcha.
 
+### URL
+
+https://auditoria2.codeman.mx/
+
+### Enfoque
+
+Mejroar la seguridad.
+
+### Problematica
+
+Se han reportado ingreso de datos no deseados.
+
+### Herramientas a utilizar
+
+Postman
