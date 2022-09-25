@@ -50,7 +50,7 @@ https://auditoria2.codeman.mx/
 
 ### Enfoque
 
-Mejroar la seguridad.
+Mejorar la seguridad.
 
 ### Problematica
 
